@@ -39,6 +39,7 @@ public class Main {
         System.out.println("Thông tin của danh sách các hàng hóa có trong giỏ hàng 1 là");
         giohang_1.inThongTinDSHH();
         
+        System.out.println("Tổng tiền hàng của giỏ hàng 1 1à: " + giohang_1.tongTienHang());
         System.out.println("Tổng tiền người mua phải trả cho giỏ hàng 1 nếu thanh toán COD là: " + giohang_1.thanhToan(new ThanhToanCOD(), giohang_1.tongTienHang()));
         System.out.println("Tổng tiền người mua phải trả cho giỏ hàng 1 nếu thanh toán online là: " + giohang_1.thanhToan(new ThanhToanOnline(), giohang_1.tongTienHang()));
         System.out.println("----------------------------------------------------");
@@ -46,6 +47,7 @@ public class Main {
         System.out.println("Thông tin của danh sách các hàng hóa có trong giỏ hàng 2 là");
         giohang_2.inThongTinDSHH();
         
+        System.out.println("Tổng tiền hàng của giỏ hàng 2 1à: " + giohang_2.tongTienHang());
         System.out.println("Tổng tiền người mua phải trả cho giỏ hàng 2 nếu thanh toán COD là: " + giohang_2.thanhToan(new ThanhToanCOD(), giohang_2.tongTienHang()));
         System.out.println("Tổng tiền người mua phải trả cho giỏ hàng 2 nếu thanh toán online là: " + giohang_2.thanhToan(new ThanhToanOnline(), giohang_2.tongTienHang()));
     }
