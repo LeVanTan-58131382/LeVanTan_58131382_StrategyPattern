@@ -13,7 +13,10 @@ public class Chia implements ITinh{
 
     @Override
     public float tinh(float a, float b) {
-        return a / b;
+        if(b != 0){
+            return a / b;
+        }
+        return 0;
     }
     
 }

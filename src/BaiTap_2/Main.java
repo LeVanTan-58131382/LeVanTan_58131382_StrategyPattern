@@ -27,13 +27,13 @@ public class Main {
         HangHoa hanghoa_5 = new HangHoa("Bộ công cụ microsoft office 2016", 300000, "Bộ công cụ mạnh mẽ cho người làm văn phòng");
         HangHoa hanghoa_6 = new HangHoa("Ti vi SamSung", 500000, "Thiết kế hiện đại, thông minh");
         
-        giohang_1.ThemHangHoa(hanghoa_1);
-        giohang_1.ThemHangHoa(hanghoa_2);
-        giohang_1.ThemHangHoa(hanghoa_3);
+        giohang_1.themHangHoa(hanghoa_1);
+        giohang_1.themHangHoa(hanghoa_2);
+        giohang_1.themHangHoa(hanghoa_3);
         
-        giohang_2.ThemHangHoa(hanghoa_4);
-        giohang_2.ThemHangHoa(hanghoa_5);
-        giohang_2.ThemHangHoa(hanghoa_6);
+        giohang_2.themHangHoa(hanghoa_4);
+        giohang_2.themHangHoa(hanghoa_5);
+        giohang_2.themHangHoa(hanghoa_6);
         
         // in thông tin của giỏ hàng 1
         System.out.println("Thông tin của danh sách các hàng hóa có trong giỏ hàng 1 là");

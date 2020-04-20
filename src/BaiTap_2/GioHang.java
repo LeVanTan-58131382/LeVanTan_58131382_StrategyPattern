@@ -18,7 +18,7 @@ public class GioHang {
         this.hangHoas = new ArrayList<HangHoa>();
     }
     
-    public void ThemHangHoa(HangHoa hangHoa){
+    public void themHangHoa(HangHoa hangHoa){
         this.hangHoas.add(hangHoa);
     }
     

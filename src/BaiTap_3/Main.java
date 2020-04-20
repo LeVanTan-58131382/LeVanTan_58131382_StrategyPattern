@@ -33,7 +33,7 @@ public class Main {
         quanlysinhvien.themSV(sv_5);
       
         
-        System.out.println("Danh sách sinh viên sắp xếp theo Họ tên: ");
+        System.out.println("Danh sách sinh viên sắp xếp theo Họ sinh viên: ");
         quanlysinhvien.setSoSanh(new SoSanhTheoTen());
         quanlysinhvien.sapXep();
         quanlysinhvien.inDS();

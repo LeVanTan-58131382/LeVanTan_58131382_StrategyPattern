@@ -10,8 +10,13 @@ package BaiTap_1;
  * @author levan
  */
 public class Context {
-    public void setTinhToan(ITinh tinhToan, float a, float b){
-        System.out.println("Kết quả: " + tinhToan.tinh(a, b));
+    ITinh tinhToan;
+    public void setTinhToan(ITinh tinhToan){
+       this.tinhToan = tinhToan;
+    }
+    
+    public float tinh(float a, float b){
+        return this.tinhToan.tinh(a, b);
     }
     
 }
